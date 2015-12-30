@@ -38,7 +38,7 @@ $ui_id = $_SESSION["ui_id"];
         <br>
        <?php
 //connection to the database
-$conn_db = mysqli_connect('hkpowerzcom.ipagemysql.com',
+$conn_db = mysqli_connect('neemajjcom.ipagemysql.com',
 		'mariadb', 'password', 'appgrade_db') or
 		die('Could not connect: ' . mysql_error());
 
