@@ -21,7 +21,7 @@
 
             $course_ID=$_GET['id'];
 
-            $conn_db = mysqli_connect('hkpowerzcom.ipagemysql.com',
+            $conn_db = mysqli_connect('neemajjcom.ipagemysql.com',
 			'mariadb', 'password', 'appgrade_db') or
 			die('Could not connect: ' . mysqli_error());
             $get_stud_marks=mysqli_query($conn_db,
