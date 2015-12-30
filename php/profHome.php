@@ -119,7 +119,7 @@ $SC_PRZ=$_POST['scale_Prz'];
 
 //connection to the database
 
-$conn = mysql_connect('hkpowerzcom.ipagemysql.com', 'mariadb', 'password');
+$conn = mysql_connect('neemajjcom.ipagemysql.com', 'mariadb', 'password');
 if (!$conn) {
     die('Could not connect: ' . mysql_error());
 }
