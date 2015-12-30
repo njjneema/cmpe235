@@ -25,7 +25,7 @@
 <?php echo "<a href='editCourse.php?c_id=".$offeredCourse_ID."''class='ui-btn ui-shadow ui-corner-all' data-role='button' data-theme='a' data-transition='flip'>Edit</a>";?>
 <br><br>
 <?php
-$conn = mysql_connect('hkpowerzcom.ipagemysql.com', 'mariadb', 'password');
+$conn = mysql_connect('neemajjcom.ipagemysql.com', 'mariadb', 'password');
 if (!$conn) {
     die('Could not connect: ' . mysql_error());
 }
