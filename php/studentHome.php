@@ -58,7 +58,7 @@ $ui_id = $_SESSION["ui_id"];
 				    </div>
 			    
 			    <div data-role="fieldcontain">
-				<a href="http://www.hkpowerz.com/cmpe235/php/logout.php" id='logout' class="ui-btn-center" data-theme="a" data-role="button" >Logout</a>
+				<a href="http://www.neemajj.com/cmpe235/php/logout.php" id='logout' class="ui-btn-center" data-theme="a" data-role="button" >Logout</a>
 				    </div>
                  <br><br>  
                  <a data-rel="close" class="ui-btn-left ui-shadow ui-corner-all" data-theme="a" data-role="button">Close</a>
