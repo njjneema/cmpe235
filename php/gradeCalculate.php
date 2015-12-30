@@ -15,7 +15,7 @@ $s_max_final=$_POST['FinalsMax'];
 $s_max_project=$_POST['ProjectMax'];
 $s_max_presentation=$_POST['PresentationMax'];
 
-$conn = mysql_connect('hkpowerzcom.ipagemysql.com', 'mariadb', 'password');
+$conn = mysql_connect('neemajjcom.ipagemysql.com', 'mariadb', 'password');
 if (!$conn) {
     die('Could not connect: ' . mysql_error());
 }
