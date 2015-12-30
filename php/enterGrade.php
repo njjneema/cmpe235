@@ -81,7 +81,7 @@ sliders.each(function() {
 $student_ID=$_GET['id'];
 $course_ID=$_GET['c_id'];
 
-$conn = mysql_connect('hkpowerzcom.ipagemysql.com', 'mariadb', 'password');
+$conn = mysql_connect('neemajjcom.ipagemysql.com', 'mariadb', 'password');
 if (!$conn) {
     die('Could not connect: ' . mysql_error());
 }
