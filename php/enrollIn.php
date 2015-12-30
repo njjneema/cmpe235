@@ -18,7 +18,7 @@ $ui_id = $_SESSION["ui_id"];
 <body>
 
 <?php
-            $conn = mysql_connect('hkpowerzcom.ipagemysql.com', 'mariadb', 'password');
+            $conn = mysql_connect('neemajjcom.ipagemysql.com', 'mariadb', 'password');
             if (!$conn) {
                 die('Could not connect: ' . mysql_error());
             }
